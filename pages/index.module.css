@@ -1,0 +1,102 @@
+.desktop1Child,
+.desktop1Item {
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+.desktop1Child {
+  left: 0;
+  width: 1440px;
+}
+.desktop1Item {
+  left: calc(50% - 317px);
+  background-color: var(--color-orange);
+  width: 633px;
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 315px;
+  height: 53.2px;
+}
+.password1 {
+  position: absolute;
+  top: 15.4px;
+  left: 53.5px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 89.3px;
+  height: 23.6px;
+}
+.lockIcon {
+  position: absolute;
+  height: 44.36%;
+  width: 6.67%;
+  top: 28.95%;
+  right: 89.33%;
+  bottom: 26.69%;
+  left: 4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.password,
+.rectangle1 {
+  position: absolute;
+  top: 707.8px;
+  left: 562px;
+  width: 315px;
+  height: 53.2px;
+}
+.rectangle1 {
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-red);
+  box-sizing: border-box;
+  width: 434px;
+  height: 112.1px;
+}
+.masukkanUsernameDan {
+  position: absolute;
+  top: 37px;
+  left: calc(50% - 153.5px);
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 308px;
+  height: 19px;
+}
+.warning {
+  position: absolute;
+  top: 481px;
+  left: 503px;
+  width: 433px;
+  height: 111.1px;
+  font-size: var(--font-size-base);
+  color: var(--color-red);
+}
+.polinemaLogo1Icon {
+  position: absolute;
+  top: 135px;
+  left: 523px;
+  width: 393px;
+  height: 339px;
+  object-fit: cover;
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

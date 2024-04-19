@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-inter: Inter;
+  --font-open-sans: "Open Sans";
+  --font-nunito: Nunito;
+  --font-inknut-antiqua: "Inknut Antiqua";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-7xl: 26px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-11xl: 30px;
+  --font-size-xl: 20px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-red: #ff0000;
+  --color-black: #000;
+  --color-orange: #faa83a;
+  --color-seagreen: #198754;
+  --color-royalblue: #0d6efd;
+  --color-darkslateblue: #012970;
+  --color-sandybrown: #fbbd73;
+  --color-gray-100: #070000;
+  --color-gray-200: rgba(0, 0, 0, 0.06);
+  --color-gray-300: rgba(255, 255, 255, 0);
+  --color-gray-400: rgba(0, 0, 0, 0.4);
+  --color-gray-500: rgba(255, 255, 255, 0.5);
+  --color-peachpuff: #f8d5ad;
+  --color-snow: #fffbfb;
+  --color-silver: #b9b9b9;
+
+  /* Gaps */
+  --gap-6xl: 25px;
+
+  /* Paddings */
+  --padding-4xs: 9px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-7xs-8: 5.8px;
+  --padding-7xs-3: 5.3px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-lg: 18px;
+  --br-7xs: 6px;
+  --br-16xl: 35px;
+  --br-10xs: 3px;
+  --br-mini: 15px;
+}

@@ -1,0 +1,60 @@
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.content {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.cell,
+.cell1 {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  border-top: 1px solid var(--color-silver);
+  border-left: 1px solid var(--color-silver);
+  flex-direction: column;
+}
+.cell {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cell1 {
+  width: 135px;
+  box-sizing: border-box;
+}
+.cell1,
+.cell2,
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cell2 {
+  align-self: stretch;
+  width: 190px;
+  background-color: var(--color-gray-200);
+  border-top: 1px solid var(--color-silver);
+  border-left: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.row {
+  width: 100%;
+  background-color: var(--color-gray-300);
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

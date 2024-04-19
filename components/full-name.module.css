@@ -1,0 +1,57 @@
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 315px;
+  height: 53.2px;
+}
+.fullName1 {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 88.2px;
+  height: 23.6px;
+}
+.rectangle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 45px;
+}
+.register {
+  position: absolute;
+  top: 13px;
+  left: 109px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.registerBtn {
+  position: absolute;
+  top: 285px;
+  left: 8px;
+  width: 300px;
+  height: 45px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+}
+.fullName {
+  position: absolute;
+  top: 631px;
+  left: 562px;
+  width: 315px;
+  height: 330px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

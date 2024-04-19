@@ -1,0 +1,71 @@
+.groupChild,
+.splash111Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 800px;
+  object-fit: cover;
+}
+.groupChild {
+  top: 14px;
+  left: 37px;
+  width: 100px;
+  height: 100px;
+}
+.groupItem,
+.shaheenUddinAhmad {
+  position: absolute;
+  top: 131px;
+  left: 3px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  width: 120px;
+  height: 25px;
+}
+.inRoom,
+.rectangleParent {
+  position: absolute;
+  top: 3px;
+  left: 34px;
+}
+.rectangleParent {
+  top: 166px;
+  left: 27px;
+  width: 120px;
+  height: 25px;
+  color: var(--color-orange);
+}
+.frame211,
+.master,
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 172px;
+  height: 49px;
+}
+.master,
+.vectorParent {
+  top: 10px;
+  left: 93px;
+  height: 191px;
+}
+.master {
+  top: 344px;
+  left: 867px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 358px;
+  height: 220px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
