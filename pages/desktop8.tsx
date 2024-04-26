@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import FullName from "../components/full-name";
+import FullName from "../components/molecules/full-name";
 import styles from "./desktop8.module.css";
 
 const Desktop8: NextPage = () => {

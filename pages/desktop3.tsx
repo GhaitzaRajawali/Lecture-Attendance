@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import Header from "../components/header";
-import DescLecture from "../components/desc-lecture";
+import Header from "../components/atoms/header";
+import DescLecture from "../components/atoms/desc-lecture";
 import styles from "./desktop3.module.css";
 
 const Desktop3: NextPage = () => {

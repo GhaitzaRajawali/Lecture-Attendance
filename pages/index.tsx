@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Username from "../components/username";
+import Username from "../components/molecules/username";
 import styles from "./index.module.css";
 
 const Desktop: NextPage = () => {
