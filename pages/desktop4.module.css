@@ -1,12 +1,12 @@
-.desktop5Child,
-.desktop5Item {
+.manageAttendanceChild,
+.manageAttendanceItem {
   position: absolute;
   top: 0;
   left: 0;
   width: 1440px;
   height: 1024px;
 }
-.desktop5Item {
+.manageAttendanceItem {
   background-color: var(--color-black);
   width: 66px;
 }
@@ -98,7 +98,7 @@
   width: 175px;
   height: 49px;
 }
-.desktop5 {
+.manageAttendance {
   width: 100%;
   position: relative;
   background-color: var(--color-white);

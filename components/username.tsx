@@ -14,6 +14,10 @@ const Username: NextPage = () => {
     router.push("/desktop8");
   }, [router]);
 
+  const onAdminTextClick = useCallback(() => {
+    router.push("/desktop8");
+  }, [router]);
+
   return (
     <div className={styles.username}>
       <div className={styles.rectangle} />
@@ -26,6 +30,9 @@ const Username: NextPage = () => {
       <b className={styles.forgotPassword}>Forgot password?</b>
       <b className={styles.register} onClick={onRegisterTextClick}>
         Register
+      </b>
+      <b className={styles.admin} onClick={onAdminTextClick}>
+        Admin
       </b>
     </div>
   );

@@ -1,12 +1,12 @@
-.desktop6Child,
-.desktop6Item {
+.manageLecturerChild,
+.manageLecturerItem {
   position: absolute;
   top: 0;
   left: 0;
   width: 1440px;
   height: 1024px;
 }
-.desktop6Item {
+.manageLecturerItem {
   background-color: var(--color-black);
   width: 66px;
 }
@@ -99,7 +99,7 @@
   height: 49px;
   cursor: pointer;
 }
-.desktop6 {
+.manageLecturer {
   width: 100%;
   position: relative;
   background-color: var(--color-white);

@@ -20,6 +20,7 @@
   line-height: 20px;
   text-transform: uppercase;
   display: inline-block;
+  color: var(--color-black);
   width: 88.2px;
 }
 .userIcon {
@@ -31,9 +32,9 @@
   position: absolute;
   top: 0;
   left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   border-radius: var(--br-9xs);
   background-color: var(--color-white);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   width: 300px;
   height: 45px;
 }
@@ -51,27 +52,33 @@
   width: 300px;
   height: 45px;
   cursor: pointer;
+  color: var(--color-black);
 }
+.admin,
 .forgotPassword,
 .register {
   position: absolute;
   top: 221px;
   left: 160px;
-  color: var(--color-white);
 }
+.admin,
 .register {
   top: 252px;
   left: 237px;
   cursor: pointer;
+}
+.admin {
+  top: 283px;
+  left: 255px;
 }
 .username {
   position: absolute;
   top: 631px;
   left: 562px;
   width: 315px;
-  height: 272px;
+  height: 303px;
   text-align: center;
   font-size: var(--font-size-base);
-  color: var(--color-black);
+  color: var(--color-white);
   font-family: var(--font-montserrat);
 }

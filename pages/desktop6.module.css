@@ -1,12 +1,12 @@
-.desktop7Child,
-.desktop7Item {
+.addLecturerChild,
+.addLecturerItem {
   position: absolute;
   top: 0;
   left: 0;
   width: 1440px;
   height: 1024px;
 }
-.desktop7Item {
+.addLecturerItem {
   background-color: var(--color-black);
   width: 66px;
 }
@@ -188,7 +188,7 @@
   box-sizing: border-box;
   width: 557px;
 }
-.desktop7 {
+.addLecturer {
   width: 100%;
   position: relative;
   background-color: var(--color-white);

@@ -4,9 +4,9 @@ import styles from "./desktop8.module.css";
 
 const Desktop8: NextPage = () => {
   return (
-    <div className={styles.desktop10}>
-      <img className={styles.desktop10Child} alt="" src="/rectangle-1.svg" />
-      <div className={styles.desktop10Item} />
+    <div className={styles.register}>
+      <img className={styles.registerChild} alt="" src="/rectangle-1.svg" />
+      <div className={styles.registerItem} />
       <FullName />
       <div className={styles.nim}>
         <div className={styles.rectangle} />

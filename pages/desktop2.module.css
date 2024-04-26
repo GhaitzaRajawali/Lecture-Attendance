@@ -1,12 +1,12 @@
-.desktop3Child,
-.desktop3Item {
+.lecturerDescChild,
+.lecturerDescItem {
   position: absolute;
   top: 0;
   left: 0;
   width: 1440px;
   height: 1024px;
 }
-.desktop3Item {
+.lecturerDescItem {
   background-color: var(--color-black);
   width: 66px;
 }
@@ -51,7 +51,7 @@
   height: 58px;
   mix-blend-mode: normal;
 }
-.desktop3 {
+.lecturerDesc {
   width: 100%;
   position: relative;
   background-color: var(--color-white);

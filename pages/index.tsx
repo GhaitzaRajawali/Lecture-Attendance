@@ -4,9 +4,9 @@ import styles from "./index.module.css";
 
 const Desktop: NextPage = () => {
   return (
-    <div className={styles.desktop1}>
-      <img className={styles.desktop1Child} alt="" src="/rectangle-1.svg" />
-      <div className={styles.desktop1Item} />
+    <div className={styles.login}>
+      <img className={styles.loginChild} alt="" src="/rectangle-1.svg" />
+      <div className={styles.loginItem} />
       <Username />
       <div className={styles.password}>
         <div className={styles.rectangle} />

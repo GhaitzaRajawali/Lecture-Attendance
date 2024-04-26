@@ -21,9 +21,13 @@ const Desktop2: NextPage = () => {
   }, [router]);
 
   return (
-    <div className={styles.desktop3}>
-      <img className={styles.desktop3Child} alt="" src="/rectangle-11.svg" />
-      <div className={styles.desktop3Item} />
+    <div className={styles.lecturerDesc}>
+      <img
+        className={styles.lecturerDescChild}
+        alt=""
+        src="/rectangle-11.svg"
+      />
+      <div className={styles.lecturerDescItem} />
       <img
         className={styles.phstudentBoldIcon}
         alt=""
@@ -52,7 +56,7 @@ const Desktop2: NextPage = () => {
       <img
         className={styles.polinemaLogo1Icon}
         alt=""
-        src="/polinemalogo-1@2x.png"
+        src="/polinemalogo-11@2x.png"
       />
       <img
         className={styles.polinemaLogo2Icon}
