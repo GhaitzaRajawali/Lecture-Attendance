@@ -8,10 +8,6 @@ import styles from "./desktop2.module.css";
 const Desktop2: NextPage = () => {
   const router = useRouter();
 
-  const onDescLecture4Click = useCallback(() => {
-    router.push("/desktop3");
-  }, [router]);
-
   const onIconParkOutlinelogoutClick = useCallback(() => {
     router.push("/");
   }, [router]);
@@ -22,27 +18,23 @@ const Desktop2: NextPage = () => {
 
   return (
     <div className={styles.lecturerDesc}>
-      <img
-        className={styles.lecturerDescChild}
-        alt=""
-        src="/rectangle-11.svg"
-      />
+      <img className={styles.lecturerDescChild} alt="" src="/rectangle-1.svg" />
       <div className={styles.lecturerDescItem} />
       <img
         className={styles.phstudentBoldIcon}
         alt=""
-        src="/phstudentbold.svg"
+        src="/phstudentbold1.svg"
       />
       <img
         className={styles.iconParkOutlinelogout}
         alt=""
-        src="/iconparkoutlinelogout.svg"
+        src="/iconparkoutlinelogout1.svg"
         onClick={onIconParkOutlinelogoutClick}
       />
       <img
         className={styles.lucidefileSpreadsheetIcon}
         alt=""
-        src="/lucidefilespreadsheet.svg"
+        src="/lucidefilespreadsheet1.svg"
         onClick={onLucidefileSpreadsheetIconClick}
       />
       <Header
@@ -64,9 +56,36 @@ const Desktop2: NextPage = () => {
         src="/polinemalogo-2@2x.png"
       />
       <DescLecture />
-      <DescLecture propTop="341px" />
-      <DescLecture propTop="542px" />
-      <DescLecture propTop="743px" onDescLecture4Click={onDescLecture4Click} />
+      <div className={styles.descLecture2}>
+        <div className={styles.descLecture2Child} />
+        <b className={styles.shaheenUddinAhmad}>Shaheen Uddin Ahmad</b>
+        <img
+          className={styles.descLecture2Item}
+          alt=""
+          src="/ellipse-7@2x.png"
+        />
+        <b className={styles.lectureDesciption}>Lecture Desciption</b>
+        <div className={styles.descLecture1}>
+          <div className={styles.descLecture2Child} />
+          <b className={styles.shaheenUddinAhmad}>Shaheen Uddin Ahmad</b>
+          <img
+            className={styles.descLecture2Item}
+            alt=""
+            src="/ellipse-7@2x.png"
+          />
+          <b className={styles.lectureDesciption}>Lecture Desciption</b>
+          <div className={styles.descLecture11}>
+            <div className={styles.descLecture2Child} />
+            <b className={styles.shaheenUddinAhmad}>Shaheen Uddin Ahmad</b>
+            <img
+              className={styles.descLecture2Item}
+              alt=""
+              src="/ellipse-7@2x.png"
+            />
+            <b className={styles.lectureDesciption}>Lecture Desciption</b>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import { useMemo, type CSSProperties } from "react";
 import styles from "./row.module.css";
 
 export type RowType = {
+  className?: string;
   showCell?: boolean;
 
   /** Style props */
@@ -44,6 +45,7 @@ export type RowType = {
 };
 
 const Row: NextPage<RowType> = ({
+  className = "",
   showCell,
   rowWidth,
   rowBackgroundColor,
@@ -167,7 +169,7 @@ const Row: NextPage<RowType> = ({
   }, [textFontSize2, textFontWeight2, textFontFamily2, textTextAlign2]);
 
   return (
-    <div className={styles.row} style={rowStyle}>
+    <div className={[styles.row, className].join(" ")} style={rowStyle}>
       <div className={styles.cell} style={cellStyle}>
         <div className={styles.content}>
           <div className={styles.text} style={textStyle} />

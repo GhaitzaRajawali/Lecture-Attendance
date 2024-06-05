@@ -3,6 +3,8 @@ import { useMemo, type CSSProperties } from "react";
 import styles from "./type-header.module.css";
 
 export type TypeHeaderType = {
+  className?: string;
+
   /** Style props */
   typeHeaderHeight?: CSSProperties["height"];
   typeHeaderFlex?: CSSProperties["flex"];
@@ -21,6 +23,7 @@ export type TypeHeaderType = {
 };
 
 const TypeHeader: NextPage<TypeHeaderType> = ({
+  className = "",
   typeHeaderHeight,
   typeHeaderFlex,
   typeHeaderWidth,
@@ -74,7 +77,10 @@ const TypeHeader: NextPage<TypeHeaderType> = ({
   }, [textFontSize, textFontWeight, textFontFamily, textTextAlign]);
 
   return (
-    <div className={styles.typeheader} style={typeHeaderStyle}>
+    <div
+      className={[styles.typeheader, className].join(" ")}
+      style={typeHeaderStyle}
+    >
       <div className={styles.content} style={content1Style}>
         <div className={styles.text} style={text3Style} />
       </div>

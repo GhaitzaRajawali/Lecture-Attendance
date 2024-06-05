@@ -3,7 +3,11 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import styles from "./username.module.css";
 
-const Username: NextPage = () => {
+export type UsernameType = {
+  className?: string;
+};
+
+const Username: NextPage<UsernameType> = ({ className = "" }) => {
   const router = useRouter();
 
   const onLoginBtnContainerClick = useCallback(() => {
@@ -19,7 +23,7 @@ const Username: NextPage = () => {
   }, [router]);
 
   return (
-    <div className={styles.username}>
+    <div className={[styles.username, className].join(" ")}>
       <div className={styles.rectangle} />
       <b className={styles.username1}>Username</b>
       <img className={styles.userIcon} alt="" src="/user.svg" />

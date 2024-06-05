@@ -3,6 +3,8 @@ import { useMemo, type CSSProperties } from "react";
 import styles from "./desc-lecture.module.css";
 
 export type DescLectureType = {
+  className?: string;
+
   /** Style props */
   propTop?: CSSProperties["top"];
 
@@ -11,6 +13,7 @@ export type DescLectureType = {
 };
 
 const DescLecture: NextPage<DescLectureType> = ({
+  className = "",
   propTop,
   onDescLecture4Click,
 }) => {
@@ -22,7 +25,7 @@ const DescLecture: NextPage<DescLectureType> = ({
 
   return (
     <div
-      className={styles.descLecture1}
+      className={[styles.descLecture1, className].join(" ")}
       style={descLecture1Style}
       onClick={onDescLecture4Click}
     >

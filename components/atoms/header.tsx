@@ -3,6 +3,7 @@ import { useMemo, type CSSProperties } from "react";
 import styles from "./header.module.css";
 
 export type HeaderType = {
+  className?: string;
   dASHBOARD?: string;
 
   /** Style props */
@@ -14,6 +15,7 @@ export type HeaderType = {
 };
 
 const Header: NextPage<HeaderType> = ({
+  className = "",
   dASHBOARD,
   messageSquareIconTop,
   messageSquareIconLeft,
@@ -38,7 +40,7 @@ const Header: NextPage<HeaderType> = ({
   ]);
 
   return (
-    <div className={styles.headerheader}>
+    <div className={[styles.headerheader, className].join(" ")}>
       <div className={styles.div}>
         <div className={styles.a} />
       </div>

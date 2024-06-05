@@ -23,7 +23,7 @@
   font-size: var(--font-size-7xl);
   line-height: 26px;
   font-family: var(--font-nunito);
-  color: var(--color-orange);
+  color: var(--color-orchid-400);
   text-align: left;
 }
 .bellIcon,
@@ -120,7 +120,7 @@
   gap: var(--gap-6xl);
   text-align: left;
   font-size: var(--font-size-sm);
-  color: var(--color-orange);
+  color: var(--color-orchid-300);
   font-family: var(--font-open-sans);
 }
 .headerheader {
@@ -128,7 +128,7 @@
   top: 0;
   left: -144px;
   box-shadow: 0 2px 20px rgba(1, 41, 112, 0.1) inset;
-  background-color: var(--color-black);
+  background-color: var(--color-purple);
   width: 1648px;
   justify-content: flex-start;
   padding: var(--padding-4xs) var(--padding-xl);

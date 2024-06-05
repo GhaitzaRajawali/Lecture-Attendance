@@ -17,12 +17,12 @@ const Desktop6: NextPage = () => {
 
   return (
     <div className={styles.addLecturer}>
-      <img className={styles.addLecturerChild} alt="" src="/rectangle-11.svg" />
+      <img className={styles.addLecturerChild} alt="" src="/rectangle-1.svg" />
       <div className={styles.addLecturerItem} />
       <img
         className={styles.phstudentBoldIcon}
         alt=""
-        src="/phstudentbold.svg"
+        src="/phstudentbold2.svg"
       />
       <img
         className={styles.iconParkOutlinelogout}
@@ -33,7 +33,7 @@ const Desktop6: NextPage = () => {
       <img
         className={styles.lucidefileSpreadsheetIcon}
         alt=""
-        src="/lucidefilespreadsheet.svg"
+        src="/lucidefilespreadsheet4.svg"
       />
       <Header
         dASHBOARD="ADMIN"

@@ -1,165 +1,206 @@
-.loginAdminChild,
-.loginAdminItem {
+.lecturerListChild,
+.lecturerListItem {
   position: absolute;
   top: 0;
-  height: 1024px;
-}
-.loginAdminChild {
   left: 0;
   width: 1440px;
+  height: 1024px;
 }
-.loginAdminItem {
-  left: calc(50% - 317px);
-  background-color: var(--color-orange);
-  width: 633px;
+.lecturerListItem {
+  background-color: var(--color-purple);
+  width: 66px;
 }
-.rectangle {
+.iconParkOutlinelogout,
+.phstudentBoldIcon {
   position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-9xs);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 315px;
-  height: 53.2px;
-}
-.userIcon,
-.username1 {
-  position: absolute;
-  top: 15.4px;
-  height: 23.6px;
-}
-.username1 {
-  left: 53.5px;
-  font-size: var(--font-size-sm);
-  line-height: 20px;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 88.2px;
-}
-.userIcon {
-  left: 12.6px;
-  width: 21px;
+  top: 179px;
+  left: 10px;
+  width: 46px;
+  height: 46px;
   overflow: hidden;
-}
-.rectangle1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
-  border-radius: var(--br-9xs);
-  background-color: var(--color-white);
-  width: 300px;
-  height: 45px;
-}
-.login {
-  position: absolute;
-  top: 13px;
-  left: 123px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
-.loginBtn {
-  position: absolute;
-  top: 165px;
-  left: 8px;
-  width: 300px;
-  height: 45px;
   cursor: pointer;
 }
-.forgotPassword,
-.register {
+.iconParkOutlinelogout {
+  top: 969px;
+  left: 16px;
+  width: 33px;
+  height: 35px;
+}
+.lucidefileSpreadsheetIcon {
   position: absolute;
-  top: 221px;
-  left: 160px;
-  color: var(--color-white);
-}
-.register {
-  top: 252px;
-  left: 237px;
-  cursor: pointer;
-}
-.password1,
-.username {
-  position: absolute;
-  top: 631px;
-  left: 562px;
-  width: 315px;
-  height: 272px;
-}
-.password1 {
-  top: 15.4px;
-  left: 53.5px;
-  line-height: 20px;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 89.3px;
-  height: 23.6px;
-}
-.lockIcon {
-  position: absolute;
-  height: 44.36%;
-  width: 6.67%;
-  top: 28.95%;
-  right: 89.33%;
-  bottom: 26.69%;
-  left: 4%;
-  max-width: 100%;
+  top: 97px;
+  left: 12px;
+  width: 41px;
+  height: 39px;
   overflow: hidden;
-  max-height: 100%;
-}
-.password {
-  position: absolute;
-  top: 707.8px;
-  left: 562px;
-  width: 315px;
-  height: 53.2px;
-  font-size: var(--font-size-sm);
-}
-.rectangle3 {
-  position: absolute;
-  top: -0.5px;
-  left: -0.5px;
-  border-radius: var(--br-9xs);
-  border: 1px solid var(--color-red);
-  box-sizing: border-box;
-  width: 434px;
-  height: 112.1px;
-}
-.masukkanUsernameDan {
-  position: absolute;
-  top: 37px;
-  left: calc(50% - 153.5px);
-  line-height: 20px;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 308px;
-  height: 19px;
-}
-.warning {
-  position: absolute;
-  top: 481px;
-  left: 503px;
-  width: 433px;
-  height: 111.1px;
-  color: var(--color-red);
 }
 .polinemaLogo1Icon {
   position: absolute;
-  top: 135px;
-  left: 523px;
-  width: 393px;
-  height: 339px;
+  top: 93px;
+  left: 130px;
+  width: 1179px;
+  height: 799px;
+  object-fit: cover;
+  mix-blend-mode: overlay;
+}
+.splash111,
+.splash112 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 800px;
+}
+.splash111 {
+  background: linear-gradient(180deg, #f08fe1, #db83ce);
+}
+.splash112 {
+  background: linear-gradient(180deg, #f08fe1, #831872 34.28%);
+}
+.groupChild {
+  position: absolute;
+  top: 14px;
+  left: 37px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
-.loginAdmin {
+.groupItem,
+.shaheenUddinAhmad {
+  position: absolute;
+  top: 131px;
+  left: 3px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  width: 120px;
+  height: 25px;
+}
+.outside,
+.rectangleParent {
+  position: absolute;
+  top: 3px;
+  left: 34px;
+}
+.rectangleParent {
+  top: 166px;
+  left: 27px;
+  width: 120px;
+  height: 25px;
+  color: var(--color-red);
+}
+.frame211 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 172px;
+  height: 49px;
+}
+.master,
+.master1,
+.vectorParent {
+  position: absolute;
+  top: 10px;
+  left: 93px;
+  width: 172px;
+  height: 191px;
+}
+.master,
+.master1 {
+  top: 344px;
+  left: 494px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 358px;
+  height: 220px;
+  overflow: hidden;
+}
+.master1 {
+  top: 97px;
+  left: 866px;
+}
+.splash1112 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #f190e2, #760964 29.67%);
+  width: 360px;
+  height: 800px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 166px;
+  left: 27px;
+  width: 120px;
+  height: 25px;
+  color: var(--color-green);
+}
+.master2,
+.master3,
+.master4,
+.master5,
+.master6,
+.master7 {
+  position: absolute;
+  top: 344px;
+  left: 118px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 358px;
+  height: 220px;
+  overflow: hidden;
+}
+.master3,
+.master4,
+.master5,
+.master6,
+.master7 {
+  top: 596px;
+  left: 120px;
+}
+.master4,
+.master5,
+.master6,
+.master7 {
+  top: 93px;
+  left: 492px;
+}
+.master5,
+.master6,
+.master7 {
+  top: 344px;
+  left: 866px;
+}
+.master6,
+.master7 {
+  top: 597px;
+  left: 494px;
+}
+.master7 {
+  top: 596px;
+  left: 868px;
+}
+.polinemaLogo2Icon {
+  position: absolute;
+  top: 1px;
+  left: -7px;
+  width: 79px;
+  height: 58px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.lecturerList {
   width: 100%;
   position: relative;
   background-color: var(--color-white);
   height: 1024px;
   overflow: hidden;
-  text-align: center;
-  font-size: var(--font-size-base);
-  color: var(--color-black);
-  font-family: var(--font-montserrat);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }

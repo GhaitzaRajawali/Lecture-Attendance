@@ -23,24 +23,28 @@ body {
   --font-size-lg: 18px;
   --font-size-xs: 12px;
   --font-size-11xl: 30px;
-  --font-size-xl: 20px;
   --font-size-3xl: 22px;
+  --font-size-xl: 20px;
 
   /* Colors */
   --color-white: #fff;
   --color-red: #ff0000;
   --color-black: #000;
-  --color-orange: #faa83a;
+  --color-violet-100: #f190e2;
+  --color-green: #00950f;
+  --color-purple: #760964;
+  --color-orchid-100: #ea89db;
+  --color-orchid-200: #e987da;
+  --color-orchid-300: #e887d9;
+  --color-orchid-400: #e684d7;
   --color-seagreen: #198754;
   --color-royalblue: #0d6efd;
   --color-darkslateblue: #012970;
-  --color-sandybrown: #fbbd73;
   --color-gray-100: #070000;
   --color-gray-200: rgba(0, 0, 0, 0.06);
   --color-gray-300: rgba(255, 255, 255, 0);
   --color-gray-400: rgba(0, 0, 0, 0.4);
   --color-gray-500: rgba(255, 255, 255, 0.5);
-  --color-peachpuff: #f8d5ad;
   --color-snow: #fffbfb;
   --color-silver: #b9b9b9;
 

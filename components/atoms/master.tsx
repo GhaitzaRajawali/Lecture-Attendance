@@ -3,6 +3,7 @@ import { useMemo, type CSSProperties } from "react";
 import styles from "./master.module.css";
 
 export type MasterType = {
+  className?: string;
   inRoom?: string;
 
   /** Style props */
@@ -14,6 +15,7 @@ export type MasterType = {
 };
 
 const Master: NextPage<MasterType> = ({
+  className = "",
   inRoom,
   propTop,
   propLeft,
@@ -28,11 +30,11 @@ const Master: NextPage<MasterType> = ({
 
   return (
     <div
-      className={styles.master}
+      className={[styles.master, className].join(" ")}
       style={masterStyle}
       onClick={onMasterContainer6Click}
     >
-      <img className={styles.splash111Icon} alt="" src="/splash11-1@2x.png" />
+      <div className={styles.splash111} />
       <div className={styles.vectorParent}>
         <img className={styles.groupChild} alt="" src="/ellipse-7@2x.png" />
         <b className={styles.shaheenUddinAhmad}>Shaheen Uddin Ahmad</b>

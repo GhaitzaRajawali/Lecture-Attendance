@@ -10,7 +10,7 @@
 }
 .registerItem {
   left: calc(50% - 317px);
-  background-color: var(--color-orange);
+  background: linear-gradient(180deg, #995b8f 23.5%, #995b8f);
   width: 633px;
 }
 .rectangle {

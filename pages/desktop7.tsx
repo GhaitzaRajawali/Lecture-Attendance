@@ -21,13 +21,13 @@ const Desktop7: NextPage = () => {
       <img
         className={styles.manageLecturerChild}
         alt=""
-        src="/rectangle-11.svg"
+        src="/rectangle-1.svg"
       />
       <div className={styles.manageLecturerItem} />
       <img
         className={styles.phstudentBoldIcon}
         alt=""
-        src="/phstudentbold.svg"
+        src="/phstudentbold2.svg"
       />
       <img
         className={styles.iconParkOutlinelogout}
@@ -38,7 +38,7 @@ const Desktop7: NextPage = () => {
       <img
         className={styles.lucidefileSpreadsheetIcon}
         alt=""
-        src="/lucidefilespreadsheet.svg"
+        src="/lucidefilespreadsheet4.svg"
       />
       <Header
         dASHBOARD="ADMIN"
@@ -62,7 +62,7 @@ const Desktop7: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="unset"
           rowPosition="absolute"
           rowTop="34px"
           rowLeft="0px"
@@ -100,7 +100,7 @@ const Desktop7: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="#ea89db"
           rowPosition="absolute"
           rowTop="100px"
           rowLeft="0px"
@@ -138,7 +138,7 @@ const Desktop7: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="#ea89db"
           rowPosition="absolute"
           rowTop="176px"
           rowLeft="0px"
@@ -176,7 +176,7 @@ const Desktop7: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="#ea89db"
           rowPosition="absolute"
           rowTop="253px"
           rowLeft="0px"

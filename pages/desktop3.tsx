@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
 import Header from "../components/atoms/header";
-import DescLecture from "../components/atoms/desc-lecture";
 import styles from "./desktop3.module.css";
 
 const Desktop3: NextPage = () => {
@@ -18,24 +17,24 @@ const Desktop3: NextPage = () => {
 
   return (
     <div className={styles.lectureInfo}>
-      <img className={styles.lectureInfoChild} alt="" src="/rectangle-11.svg" />
+      <img className={styles.lectureInfoChild} alt="" src="/rectangle-1.svg" />
       <div className={styles.lectureInfoItem} />
       <img
         className={styles.phstudentBoldIcon}
         alt=""
-        src="/phstudentbold.svg"
+        src="/phstudentbold2.svg"
         onClick={onPhstudentBoldIconClick}
       />
       <img
         className={styles.iconParkOutlinelogout}
         alt=""
-        src="/iconparkoutlinelogout.svg"
+        src="/iconparkoutlinelogout2.svg"
         onClick={onIconParkOutlinelogoutClick}
       />
       <img
         className={styles.lucidefileSpreadsheetIcon}
         alt=""
-        src="/lucidefilespreadsheet.svg"
+        src="/lucidefilespreadsheet2.svg"
       />
       <Header
         dASHBOARD="LECTURE"
@@ -55,7 +54,16 @@ const Desktop3: NextPage = () => {
         alt=""
         src="/polinemalogo-2@2x.png"
       />
-      <DescLecture propTop="140px" />
+      <div className={styles.descLecture3}>
+        <div className={styles.descLecture3Child} />
+        <b className={styles.shaheenUddinAhmad}>Shaheen Uddin Ahmad</b>
+        <img
+          className={styles.descLecture3Item}
+          alt=""
+          src="/ellipse-7@2x.png"
+        />
+        <b className={styles.lectureDesciption}>Lecture Desciption</b>
+      </div>
     </div>
   );
 };

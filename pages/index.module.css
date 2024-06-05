@@ -11,7 +11,7 @@
 }
 .loginItem {
   left: calc(50% - 317px);
-  background-color: var(--color-orange);
+  background: linear-gradient(180deg, #ff98ef, #995b8f 53.74%);
   width: 633px;
   height: 1024px;
 }

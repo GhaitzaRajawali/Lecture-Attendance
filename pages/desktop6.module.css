@@ -7,7 +7,7 @@
   height: 1024px;
 }
 .addLecturerItem {
-  background-color: var(--color-black);
+  background-color: var(--color-purple);
   width: 66px;
 }
 .iconParkOutlinelogout,
@@ -98,7 +98,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #d59140;
+  background-color: var(--color-purple);
   width: 118px;
   height: 52px;
 }
@@ -126,7 +126,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--color-peachpuff);
+  background-color: var(--color-orchid-100);
   border: 1px solid var(--color-gray-100);
   box-sizing: border-box;
   width: 281px;

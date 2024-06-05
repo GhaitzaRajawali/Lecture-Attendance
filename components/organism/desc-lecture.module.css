@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-16xl);
-  background-color: var(--color-orange);
+  background: linear-gradient(90deg, #ec8bdd, #a23a92);
   width: 1100px;
   height: 171px;
 }

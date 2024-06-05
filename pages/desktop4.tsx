@@ -17,24 +17,24 @@ const Desktop4: NextPage = () => {
       <img
         className={styles.manageAttendanceChild}
         alt=""
-        src="/rectangle-11.svg"
+        src="/rectangle-1.svg"
       />
       <div className={styles.manageAttendanceItem} />
       <img
         className={styles.phstudentBoldIcon}
         alt=""
-        src="/phstudentbold.svg"
+        src="/phstudentbold3.svg"
       />
       <img
         className={styles.iconParkOutlinelogout}
         alt=""
-        src="/iconparkoutlinelogout.svg"
+        src="/iconparkoutlinelogout3.svg"
         onClick={onIconParkOutlinelogoutClick}
       />
       <img
         className={styles.lucidefileSpreadsheetIcon}
         alt=""
-        src="/lucidefilespreadsheet.svg"
+        src="/lucidefilespreadsheet3.svg"
       />
       <Header
         dASHBOARD="KAJUR"
@@ -58,7 +58,7 @@ const Desktop4: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="unset"
           rowPosition="absolute"
           rowTop="34px"
           rowLeft="0px"
@@ -96,7 +96,7 @@ const Desktop4: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="#f190e2"
           rowPosition="absolute"
           rowTop="100px"
           rowLeft="0px"
@@ -134,7 +134,7 @@ const Desktop4: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="#f190e2"
           rowPosition="absolute"
           rowTop="176px"
           rowLeft="0px"
@@ -172,7 +172,7 @@ const Desktop4: NextPage = () => {
         <Row
           showCell
           rowWidth="1138px"
-          rowBackgroundColor="#fbbd73"
+          rowBackgroundColor="#f08fe1"
           rowPosition="absolute"
           rowTop="253px"
           rowLeft="0px"

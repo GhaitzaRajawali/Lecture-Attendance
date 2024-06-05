@@ -3,7 +3,11 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import styles from "./full-name.module.css";
 
-const FullName: NextPage = () => {
+export type FullNameType = {
+  className?: string;
+};
+
+const FullName: NextPage<FullNameType> = ({ className = "" }) => {
   const router = useRouter();
 
   const onRegisterBtnContainerClick = useCallback(() => {
@@ -11,7 +15,7 @@ const FullName: NextPage = () => {
   }, [router]);
 
   return (
-    <div className={styles.fullName}>
+    <div className={[styles.fullName, className].join(" ")}>
       <div className={styles.rectangle} />
       <b className={styles.fullName1}>Full name</b>
       <div className={styles.registerBtn} onClick={onRegisterBtnContainerClick}>
