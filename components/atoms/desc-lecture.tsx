@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./desc-lecture.module.css";
+import styles from "../organism/desc-lecture.module.css";
 
 export type DescLectureType = {
   className?: string;

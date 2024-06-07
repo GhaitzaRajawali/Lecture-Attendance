@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./master.module.css";
+import styles from "../organism/master.module.css";
 
 export type MasterType = {
   className?: string;

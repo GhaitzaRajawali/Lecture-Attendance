@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./row.module.css";
+import styles from "../organism/row.module.css";
 
 export type RowType = {
   className?: string;

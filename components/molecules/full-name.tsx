@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import styles from "./full-name.module.css";
+import styles from "../organism/full-name.module.css";
 
 export type FullNameType = {
   className?: string;

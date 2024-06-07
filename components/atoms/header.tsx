@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./header.module.css";
+import styles from "../organism/header.module.css";
 
 export type HeaderType = {
   className?: string;
